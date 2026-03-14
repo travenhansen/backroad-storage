@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Backroad Storage | Waitlist and Availability</title>
+  <meta name="description" content="Contact Backroad Storage in Preston, Idaho. Call or text 208-650-8712, view the address, check availability, or join the waitlist for storage units and parking storage." />
+  <link rel="canonical" href="https://www.backroadstorage.com/contact.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rye&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header compact-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">Backroad</span>
+        <span class="brand-sub">Storage</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="storage-units.html">Storage Units</a>
+        <a href="parking-storage.html">Parking Storage</a>
+        <a href="contact.html">Contact / Waitlist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero tan-bg">
+      <div class="container split-layout align-center">
+        <div>
+          <p class="eyebrow">Contact Backroad Storage</p>
+          <h1 id="contactPageTitle">Check availability or join the waitlist</h1>
+          <p id="contactPageIntro">Units go fast. The fastest way to reach Backroad Storage is by phone or text. You can also use the waitlist form below.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:2086508712">Call 208-650-8712</a>
+            <a class="btn btn-secondary" href="sms:2086508712">Text Now</a>
+            <a class="btn btn-secondary" href="mailto:backroadstorageunits@gmail.com">Email Us</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <h2>Business info</h2>
+          <ul class="info-list">
+            <li><strong>Address:</strong> 2583 Parkinson Rd, Preston, ID 83263</li>
+            <li><strong>Phone:</strong> 208-650-8712</li>
+            <li><strong>Email:</strong> backroadstorageunits@gmail.com</li>
+            <li><strong>Access hours:</strong> 24 hours</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="availability">
+      <div class="container split-layout">
+        <div class="info-card emphasis-card">
+          <p class="eyebrow">Current status</p>
+          <h2 id="contactStatusHeading">Currently Full</h2>
+          <p id="contactStatusMessage">Join the waitlist and we’ll contact you when a space opens up.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="contactRentBtn" href="#" target="_blank" rel="noopener">Rent Now</a>
+            <a class="btn btn-secondary" href="#waitlist">Join Waitlist</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <h2>Map</h2>
+          <div class="map-wrap">
+            <iframe
+              title="Backroad Storage map"
+              src="https://www.google.com/maps?q=2583%20Parkinson%20Rd%2C%20Preston%2C%20ID%2083263&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section warm-bg" id="waitlist">
+      <div class="container form-layout">
+        <div>
+          <p class="eyebrow">Waitlist Form</p>
+          <h2>Join the waitlist</h2>
+          <p>This static site is ready for a form service. Replace the form action in this file with your Formspree, Basin, or Netlify form endpoint, and submissions will go straight to your email.</p>
+          <p>Until then, customers can still call, text, or email you directly.</p>
+        </div>
+        <form class="waitlist-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone Number
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Interested In
+            <select name="interest" id="waitlistInterest">
+              <option>10x20 Storage Unit</option>
+              <option>Parking Space</option>
+              <option>Either</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us what you need."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Join Waitlist</button>
+          <p class="tiny-note">Replace <code>YOUR_FORM_ID</code> with your form endpoint before launch.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>Backroad Storage</h3></div>
+      <div><p>2583 Parkinson Rd<br />Preston, ID 83263</p></div>
+      <div><p><a href="tel:2086508712">208-650-8712</a><br /><a href="mailto:backroadstorageunits@gmail.com">backroadstorageunits@gmail.com</a></p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
